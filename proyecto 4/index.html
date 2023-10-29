@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Música Clásica</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        /* Estilos personalizados */
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #e6e6e6;
+            margin: 0;
+            padding: 0;
+        }
+
+        .navbar {
+            background-color: #fff;
+            border-bottom: 1px solid #eee;
+        }
+
+        .navbar-brand {
+            font-size: 24px;
+        }
+
+        .navbar-nav .nav-link {
+            color: #333;
+            font-size: 18px;
+            margin-right: 20px;
+        }
+
+        .navbar-nav .nav-link:hover {
+            color: #00bcd4;
+        }
+
+        .section {
+            padding: 80px 0;
+            text-align: center;
+        }
+
+        .section-title {
+            font-size: 36px;
+            color: #333;
+            margin-bottom: 40px;
+        }
+
+        .section-content {
+            font-size: 18px;
+            color: #555;
+            line-height: 1.6;
+        }
+
+        .image-container {
+            padding: 20px;
+        }
+
+        .image-container img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .image-container img:hover {
+            transform: scale(1.05);
+        }
+
+        .contact-form {
+            margin: 0 auto;
+            max-width: 500px;
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Música Clásica</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#section-1">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#section-2">Mozart</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#section-3">Beethoven</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#section-4">Bach</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#section-5">Instrumentos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#section-6">Formulario</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div id="section-1" class="section">
+        <div class="container">
+            <h1 class="section-title">Bienvenido a la Música Clásica</h1>
+            <p class="section-content">Explora la historia de los grandes maestros y su legado.</p>
+        </div>
+    </div>
+
+    <div id="section-2" class="section bg-light">
+        <div class="container">
+            <h2 class="section-title">Mozart</h2>
+            <p class="section-content">
+                Wolfgang Amadeus Mozart (1756-1791) fue un compositor prolífico y figura destacada en la música clásica. Comenzó a componer música a una edad temprana y dejó un legado duradero de óperas, sinfonías, música de cámara y conciertos.
+            </p>
+            <div class="image-container">
+                <img src="assets/img/mozart.jpg" alt="Mozart">
+            </div>
+        </div>
+    </div>
+
+    <div id="section-3" class="section">
+        <div class="container">
+            <h2 class="section-title">Beethoven</h2>
+            <p class="section-content">
+                Ludwig van Beethoven (1770-1827) fue un compositor alemán cuyo legado incluye obras revolucionarias. A pesar de la pérdida de la audición, continuó componiendo y dejó una marca indeleble en la música con sinfonías icónicas y obras maestras.
+            </p>
+            <div class="image-container">
+                <img src="assets/img/Beethoven.jpg" alt="Beethoven">
+            </div>
+        </div>
+    </div>
+
+    <div id="section-4" class="section bg-light">
+        <div class="container">
+            <h2 class="section-title">Bach</h2>
+            <p class="section-content">
+                Johann Sebastian Bach (1685-1750) fue un influyente compositor y músico del período barroco. Es conocido por sus composiciones para órgano, corales, conciertos de violín y música de cámara.
+            </p>
+            <div class="image-container">
+                <img src="assets/img/bach.jpg" alt="Bach">
+            </div>
+        </div>
+    </div>
+
+    <div id="section-5" class="section">
+        <div class="container">
+            <h2 class="section-title">Instrumentos Musicales</h2>
+            <div class="row">
+                <div class="col-md-4 image-container">
+                    <img src="assets/img/piano.jpg" alt="Piano">
+                </div>
+                <div class="col-md-4 image-container">
+                    <img src="assets/img/violin.jpg" alt="Violín">
+                </div>
+                <div class="col-md-4 image-container">
+                    <img src="assets/img/flauta.jpg" alt="Flauta">
+                </div>
+                <div class="col-md-4 image-container">
+                    <img src="assets/img/cello.jpg" alt="Cello">
+                </div>
+                <div class="col-md-4 image-container">
+                    <img src="assets/img/oboe.jpg" alt="Oboe">
+                </div>
+                <div class="col-md-4 image-container">
+                    <img src="assets/img/trompeta.jpg" alt="Trompeta">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="section-6" class="section bg-light">
+        <div class="container">
+            <h2 class="section-title">Formulario de Contacto</h2>
+            <form class="contact-form">
+                <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Nombre">
+                </div>
+                <div class="form-group">
+                    <input type="email" class="form-control" placeholder="Correo electrónico">
+                </div>
+                <div class="form-group">
+                    <textarea class="form-control" placeholder="Mensaje" rows="5"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Enviar</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.7/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
